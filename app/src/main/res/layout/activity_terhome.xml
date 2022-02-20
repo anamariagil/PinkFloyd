@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheEndlessRiver.TERHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/bhome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/previous"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:text="The Endless River"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/btlu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titulo"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/ttlu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btlu"
+            app:layout_constraintStart_toStartOf="@id/btlu"
+            app:layout_constraintTop_toTopOf="@id/btlu"
+            app:layout_constraintBottom_toBottomOf="@id/btlu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Things Left Unsaid"
+            />
+
+        <ImageButton
+            android:id="@+id/biwwd"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btlu"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tiwwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/biwwd"
+            app:layout_constraintStart_toStartOf="@id/biwwd"
+            app:layout_constraintTop_toTopOf="@id/biwwd"
+            app:layout_constraintBottom_toBottomOf="@id/biwwd"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="It's What We Do"
+            />
+
+        <ImageButton
+            android:id="@+id/beaf"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/biwwd"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/teaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/beaf"
+            app:layout_constraintStart_toStartOf="@id/beaf"
+            app:layout_constraintTop_toTopOf="@id/beaf"
+            app:layout_constraintBottom_toBottomOf="@id/beaf"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Ebb And Flow"
+            />
+
+        <ImageButton
+            android:id="@+id/bs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/beaf"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bs"
+            app:layout_constraintStart_toStartOf="@id/bs"
+            app:layout_constraintTop_toTopOf="@id/bs"
+            app:layout_constraintBottom_toBottomOf="@id/bs"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Sum"
+            />
+
+        <ImageButton
+            android:id="@+id/bsk"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bs"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bsk"
+            app:layout_constraintStart_toStartOf="@id/bsk"
+            app:layout_constraintTop_toTopOf="@id/bsk"
+            app:layout_constraintBottom_toBottomOf="@id/bsk"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Skins"
+            />
+
+        <ImageButton
+            android:id="@+id/bu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bsk"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bu"
+            app:layout_constraintStart_toStartOf="@id/bu"
+            app:layout_constraintTop_toTopOf="@id/bu"
+            app:layout_constraintBottom_toBottomOf="@id/bu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Unsung"
+            />
+
+        <ImageButton
+            android:id="@+id/ba"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bu"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/ba"
+            app:layout_constraintStart_toStartOf="@id/ba"
+            app:layout_constraintTop_toTopOf="@id/ba"
+            app:layout_constraintBottom_toBottomOf="@id/ba"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Anisina"
+            />
+
+        <ImageButton
+            android:id="@+id/btlaoc"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ba"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttlaoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btlaoc"
+            app:layout_constraintStart_toStartOf="@id/btlaoc"
+            app:layout_constraintTop_toTopOf="@id/btlaoc"
+            app:layout_constraintBottom_toBottomOf="@id/btlaoc"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="The Lost Art Of\nConversation"
+            />
+
+        <ImageButton
+            android:id="@+id/bons"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btlaoc"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bons"
+            app:layout_constraintStart_toStartOf="@id/bons"
+            app:layout_constraintTop_toTopOf="@id/bons"
+            app:layout_constraintBottom_toBottomOf="@id/bons"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="On Noodle Street"
+            />
+
+        <ImageButton
+            android:id="@+id/bnl"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bons"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tnl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bnl"
+            app:layout_constraintStart_toStartOf="@id/bnl"
+            app:layout_constraintTop_toTopOf="@id/bnl"
+            app:layout_constraintBottom_toBottomOf="@id/bnl"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Night Light"
+            />
+
+        <ImageButton
+            android:id="@+id/bay1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bnl"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bay1"
+            app:layout_constraintStart_toStartOf="@id/bay1"
+            app:layout_constraintTop_toTopOf="@id/bay1"
+            app:layout_constraintBottom_toBottomOf="@id/bay1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Allons-y 1"
+            />
+
+        <ImageButton
+            android:id="@+id/bau"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bay1"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bau"
+            app:layout_constraintStart_toStartOf="@id/bau"
+            app:layout_constraintTop_toTopOf="@id/bau"
+            app:layout_constraintBottom_toBottomOf="@id/bau"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Autumn '68"
+            />
+
+        <ImageButton
+            android:id="@+id/bay2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bau"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bay2"
+            app:layout_constraintStart_toStartOf="@id/bay2"
+            app:layout_constraintTop_toTopOf="@id/bay2"
+            app:layout_constraintBottom_toBottomOf="@id/bay2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Allons-y 2"
+            />
+
+        <ImageButton
+            android:id="@+id/bth"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bay2"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bth"
+            app:layout_constraintStart_toStartOf="@id/bth"
+            app:layout_constraintTop_toTopOf="@id/bth"
+            app:layout_constraintBottom_toBottomOf="@id/bth"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Talking Hawking"
+            />
+
+        <ImageButton
+            android:id="@+id/bc"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bth"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bc"
+            app:layout_constraintStart_toStartOf="@id/bc"
+            app:layout_constraintTop_toTopOf="@id/bc"
+            app:layout_constraintBottom_toBottomOf="@id/bc"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Calling"
+            />
+
+        <ImageButton
+            android:id="@+id/betp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bc"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tetp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/betp"
+            app:layout_constraintStart_toStartOf="@id/betp"
+            app:layout_constraintTop_toTopOf="@id/betp"
+            app:layout_constraintBottom_toBottomOf="@id/betp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Eyes To Pearls"
+            />
+
+        <ImageButton
+            android:id="@+id/bsu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/betp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bsu"
+            app:layout_constraintStart_toStartOf="@id/bsu"
+            app:layout_constraintTop_toTopOf="@id/bsu"
+            app:layout_constraintBottom_toBottomOf="@id/bsu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Surfacing"
+            />
+
+        <ImageButton
+            android:id="@+id/bltw"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bsu"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tltw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bltw"
+            app:layout_constraintStart_toStartOf="@id/bltw"
+            app:layout_constraintTop_toTopOf="@id/bltw"
+            app:layout_constraintBottom_toBottomOf="@id/bltw"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Louder Than Words"
+            />
+
+        <ImageButton
+            android:id="@+id/bt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bltw"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bt"
+            app:layout_constraintStart_toStartOf="@id/bt"
+            app:layout_constraintTop_toTopOf="@id/bt"
+            app:layout_constraintBottom_toBottomOf="@id/bt"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="TBS9"
+            />
+
+        <ImageButton
+            android:id="@+id/btb"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btb"
+            app:layout_constraintStart_toStartOf="@id/btb"
+            app:layout_constraintTop_toTopOf="@id/btb"
+            app:layout_constraintBottom_toBottomOf="@id/btb"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="TBS14"
+            />
+
+        <ImageButton
+            android:id="@+id/bn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bn"
+            app:layout_constraintStart_toStartOf="@id/bn"
+            app:layout_constraintTop_toTopOf="@id/bn"
+            app:layout_constraintBottom_toBottomOf="@id/bn"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Nervana"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

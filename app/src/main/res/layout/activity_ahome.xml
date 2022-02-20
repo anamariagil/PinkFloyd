@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animals.AHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/bhome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/previous"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:text="Animals"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/bpotw1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titulo"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/tpotw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bpotw1"
+            app:layout_constraintStart_toStartOf="@id/bpotw1"
+            app:layout_constraintTop_toTopOf="@id/bpotw1"
+            app:layout_constraintBottom_toBottomOf="@id/bpotw1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Pigs On The Wing 1"
+            />
+
+        <ImageButton
+            android:id="@+id/bd"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bpotw1"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/td"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bd"
+            app:layout_constraintStart_toStartOf="@id/bd"
+            app:layout_constraintTop_toTopOf="@id/bd"
+            app:layout_constraintBottom_toBottomOf="@id/bd"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Dogs"
+            />
+
+        <ImageButton
+            android:id="@+id/bp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bd"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bp"
+            app:layout_constraintStart_toStartOf="@id/bp"
+            app:layout_constraintTop_toTopOf="@id/bp"
+            app:layout_constraintBottom_toBottomOf="@id/bp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Pigs"
+            />
+
+        <ImageButton
+            android:id="@+id/bs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bs"
+            app:layout_constraintStart_toStartOf="@id/bs"
+            app:layout_constraintTop_toTopOf="@id/bs"
+            app:layout_constraintBottom_toBottomOf="@id/bs"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Sheep"
+            />
+
+        <ImageButton
+            android:id="@+id/bpotw2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bs"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="293dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tpotw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bpotw2"
+            app:layout_constraintStart_toStartOf="@id/bpotw2"
+            app:layout_constraintTop_toTopOf="@id/bpotw2"
+            app:layout_constraintBottom_toBottomOf="@id/bpotw2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Pigs On The Wing 2"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

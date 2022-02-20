@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WishYouWereHere.WYWHHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/bhome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/previous"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:text="Wish You Were Here"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/bsoycd1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titulo"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/tsoycd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bsoycd1"
+            app:layout_constraintStart_toStartOf="@id/bsoycd1"
+            app:layout_constraintTop_toTopOf="@id/bsoycd1"
+            app:layout_constraintBottom_toBottomOf="@id/bsoycd1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Shine On You\nCrazy Diamond 1"
+            />
+
+        <ImageButton
+            android:id="@+id/bwttm"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bsoycd1"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/twttm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bwttm"
+            app:layout_constraintStart_toStartOf="@id/bwttm"
+            app:layout_constraintTop_toTopOf="@id/bwttm"
+            app:layout_constraintBottom_toBottomOf="@id/bwttm"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Welcome To The\nMachine"
+            />
+
+        <ImageButton
+            android:id="@+id/bhac"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bwttm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/thac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bhac"
+            app:layout_constraintStart_toStartOf="@id/bhac"
+            app:layout_constraintTop_toTopOf="@id/bhac"
+            app:layout_constraintBottom_toBottomOf="@id/bhac"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Have A Cigar"
+            />
+
+        <ImageButton
+            android:id="@+id/bwywh"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bhac"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/twywh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bwywh"
+            app:layout_constraintStart_toStartOf="@id/bwywh"
+            app:layout_constraintTop_toTopOf="@id/bwywh"
+            app:layout_constraintBottom_toBottomOf="@id/bwywh"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Wish You Were Here"
+            />
+
+        <ImageButton
+            android:id="@+id/bsoycd2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bwywh"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="293dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tsoycd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bsoycd2"
+            app:layout_constraintStart_toStartOf="@id/bsoycd2"
+            app:layout_constraintTop_toTopOf="@id/bsoycd2"
+            app:layout_constraintBottom_toBottomOf="@id/bsoycd2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Shine On You\nCrazy Diamond 2"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheDivisionBell.TDBHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/bhome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/previous"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:text="The Division Bell"
+            android:layout_marginTop="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/bco"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titulo"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/tco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bco"
+            app:layout_constraintStart_toStartOf="@id/bco"
+            app:layout_constraintTop_toTopOf="@id/bco"
+            app:layout_constraintBottom_toBottomOf="@id/bco"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Cluster One"
+            />
+
+        <ImageButton
+            android:id="@+id/bwdywfm"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bco"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/twdywfm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bwdywfm"
+            app:layout_constraintStart_toStartOf="@id/bwdywfm"
+            app:layout_constraintTop_toTopOf="@id/bwdywfm"
+            app:layout_constraintBottom_toBottomOf="@id/bwdywfm"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="What Do You Want\nFrom Me"
+            />
+
+        <ImageButton
+            android:id="@+id/bpa"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bwdywfm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bpa"
+            app:layout_constraintStart_toStartOf="@id/bpa"
+            app:layout_constraintTop_toTopOf="@id/bpa"
+            app:layout_constraintBottom_toBottomOf="@id/bpa"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Poles Apart"
+            />
+
+        <ImageButton
+            android:id="@+id/bm"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bpa"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bm"
+            app:layout_constraintStart_toStartOf="@id/bm"
+            app:layout_constraintTop_toTopOf="@id/bm"
+            app:layout_constraintBottom_toBottomOf="@id/bm"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Marooned"
+            />
+
+        <ImageButton
+            android:id="@+id/bagdff"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tagdff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bagdff"
+            app:layout_constraintStart_toStartOf="@id/bagdff"
+            app:layout_constraintTop_toTopOf="@id/bagdff"
+            app:layout_constraintBottom_toBottomOf="@id/bagdff"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="A Great Day For\nFreedom"
+            />
+
+        <ImageButton
+            android:id="@+id/bwtio"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bagdff"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/twtio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bwtio"
+            app:layout_constraintStart_toStartOf="@id/bwtio"
+            app:layout_constraintTop_toTopOf="@id/bwtio"
+            app:layout_constraintBottom_toBottomOf="@id/bwtio"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Wearing The\nInside Out"
+            />
+
+        <ImageButton
+            android:id="@+id/btib"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bwtio"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btib"
+            app:layout_constraintStart_toStartOf="@id/btib"
+            app:layout_constraintTop_toTopOf="@id/btib"
+            app:layout_constraintBottom_toBottomOf="@id/btib"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Take It Back"
+            />
+
+        <ImageButton
+            android:id="@+id/bcbtl"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btib"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tcbtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bcbtl"
+            app:layout_constraintStart_toStartOf="@id/bcbtl"
+            app:layout_constraintTop_toTopOf="@id/bcbtl"
+            app:layout_constraintBottom_toBottomOf="@id/bcbtl"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:fontFamily="monospace"
+            android:text="Coming Back To Life"
+            />
+
+        <ImageButton
+            android:id="@+id/bkt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bcbtl"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bkt"
+            app:layout_constraintStart_toStartOf="@id/bkt"
+            app:layout_constraintTop_toTopOf="@id/bkt"
+            app:layout_constraintBottom_toBottomOf="@id/bkt"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Keep Talking"
+            />
+
+        <ImageButton
+            android:id="@+id/blfw"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bkt"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tlfw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/blfw"
+            app:layout_constraintStart_toStartOf="@id/blfw"
+            app:layout_constraintTop_toTopOf="@id/blfw"
+            app:layout_constraintBottom_toBottomOf="@id/blfw"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Lost For Words"
+            />
+
+        <ImageButton
+            android:id="@+id/bhh"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/blfw"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/thh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bhh"
+            app:layout_constraintStart_toStartOf="@id/bhh"
+            app:layout_constraintTop_toTopOf="@id/bhh"
+            app:layout_constraintBottom_toBottomOf="@id/bhh"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="High Hopes"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/fpf">
+
+        <ImageButton
+            android:id="@+id/btfc"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btfc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="80dp"
+            />
+
+        <TextView
+            android:id="@+id/ttfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btfc"
+            app:layout_constraintStart_toStartOf="@id/btfc"
+            app:layout_constraintTop_toTopOf="@id/btfc"
+            app:layout_constraintBottom_toBottomOf="@id/btfc"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="The Final Cut"
+            />
+
+        <ImageButton
+            android:id="@+id/ba"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ba"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btfc"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/ba"
+            app:layout_constraintStart_toStartOf="@id/ba"
+            app:layout_constraintTop_toTopOf="@id/ba"
+            app:layout_constraintBottom_toBottomOf="@id/ba"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Animals"
+            />
+
+        <ImageButton
+            android:id="@+id/bwywh"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bwywh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ba"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/twtwh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bwywh"
+            app:layout_constraintStart_toStartOf="@id/bwywh"
+            app:layout_constraintTop_toTopOf="@id/bwywh"
+            app:layout_constraintBottom_toBottomOf="@id/bwywh"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Wish You Were Here"
+            />
+
+        <ImageButton
+            android:id="@+id/btdsotm"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btdsotm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bwywh"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttdsotm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btdsotm"
+            app:layout_constraintStart_toStartOf="@id/btdsotm"
+            app:layout_constraintTop_toTopOf="@id/btdsotm"
+            app:layout_constraintBottom_toBottomOf="@id/btdsotm"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="The Dark Side Of \nThe Moon"
+            />
+
+        <ImageButton
+            android:id="@+id/bm"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btdsotm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bm"
+            app:layout_constraintStart_toStartOf="@id/bm"
+            app:layout_constraintTop_toTopOf="@id/bm"
+            app:layout_constraintBottom_toBottomOf="@id/bm"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="More"
+            />
+
+        <ImageButton
+            android:id="@+id/btdb"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btdb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btdb"
+            app:layout_constraintStart_toStartOf="@id/btdb"
+            app:layout_constraintTop_toTopOf="@id/btdb"
+            app:layout_constraintBottom_toBottomOf="@id/btdb"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="The Division Bell"
+            />
+
+        <ImageButton
+            android:id="@+id/btw"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btw"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btdb"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ttw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/btw"
+            app:layout_constraintStart_toStartOf="@id/btw"
+            app:layout_constraintTop_toTopOf="@id/btw"
+            app:layout_constraintBottom_toBottomOf="@id/btw"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="The Wall"
+            />
+
+        <ImageButton
+            android:id="@+id/bahm"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bahm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btw"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tahm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bahm"
+            app:layout_constraintStart_toStartOf="@id/bahm"
+            app:layout_constraintTop_toTopOf="@id/bahm"
+            app:layout_constraintBottom_toBottomOf="@id/bahm"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="Atom Heart Mother"
+            />
+
+        <ImageButton
+            android:id="@+id/bme"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bahm"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bme"
+            app:layout_constraintStart_toStartOf="@id/bme"
+            app:layout_constraintTop_toTopOf="@id/bme"
+            app:layout_constraintBottom_toBottomOf="@id/bme"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            android:text="Meddle"
+            />
+
+        <ImageButton
+            android:id="@+id/bter"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bme"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@id/bter"
+            app:layout_constraintStart_toStartOf="@id/bter"
+            app:layout_constraintTop_toTopOf="@id/bter"
+            app:layout_constraintBottom_toBottomOf="@id/bter"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:fontFamily="monospace"
+            android:text="The Endless River"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bter"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

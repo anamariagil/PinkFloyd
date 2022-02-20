@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pinkfloyd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PinkFloyd">
+        <activity
+            android:name=".TheEndlessRiver.Nervana"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.TBS14"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.TBS9"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.LouderThanWords"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Surfacing"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.EyesToPearls"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Calling"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.TalkingHawking"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Autumn68"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Allonsy2"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Allonsy1"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.NightLight"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.OnNoodleStreet"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.TheLostArtOfConversation"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Anisina"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Unsung"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Skins"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.Sum"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.EbbAndFlow"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.ItsWhatWeDo"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.ThingsLeftUnsaid"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.Echoes"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.Seamus"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.SanTropez"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.Fearless"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.APillowOfWinds"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.OneOfTheseDays"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.AlansPsychedelicBreakfast"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.FatOldSun"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.Summer68"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.If"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.AtomHeartMother"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.BringTheBoysBackHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.OutsideTheWall"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.TheTrial"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.Stop"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.WaitingForTheWorms"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.RunLikeHell"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.InTheFlesh2"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.TheShowMustGoOn"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.ComfortablyNumb"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.Vera"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.NobodyHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.IsThereAnybodyOutThere"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.HeyYou"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.GoodbyeCruelWorld"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.DontLeaveMeNow"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.OneOfMyTurns"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.YoungLust"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.EmptySpaces"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.GoodbyeBlueSky"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.Mother"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.AnotherBrickInTheWall3"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.AnotherBrickInTheWall2"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.TheHappiestDaysOfOurLives"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.AnotherBrickInTheWall1"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.TheThinIce"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.InTheFlesh1"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.HighHopes"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.LostForWords"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.KeepTalking"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.ComingBackToLife"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.TakeItBack"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.WearingTheInsideOut"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.AGreatDayForFreedom"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.Marooned"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.PolesApart"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.WhatDoYouWantFromMe"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.ClusterOne"
+            android:exported="false" />
+        <activity
+            android:name=".More.DramaticTheme"
+            android:exported="false" />
+        <activity
+            android:name=".More.ASpanishPiece"
+            android:exported="false" />
+        <activity
+            android:name=".More.Quicksilver"
+            android:exported="false" />
+        <activity
+            android:name=".More.MoreBlues"
+            android:exported="false" />
+        <activity
+            android:name=".More.IbizaBar"
+            android:exported="false" />
+        <activity
+            android:name=".More.MainTheme"
+            android:exported="false" />
+        <activity
+            android:name=".More.PartySequence"
+            android:exported="false" />
+        <activity
+            android:name=".More.Cymbaline"
+            android:exported="false" />
+        <activity
+            android:name=".More.GreenIsTheColor"
+            android:exported="false" />
+        <activity
+            android:name=".More.UpTheKhyber"
+            android:exported="false" />
+        <activity
+            android:name=".More.CryingSong"
+            android:exported="false" />
+        <activity
+            android:name=".More.TheNileSong"
+            android:exported="false" />
+        <activity
+            android:name=".More.CirrusMinor"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.Eclipse"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.BrainDamage"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.AnyColourYouLike"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.UsAndThem"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.Money"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.TheGreatGigInTheSky"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.Time"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.OnTheRun"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.BreatheInTheAir"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.SpeakToMe"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.ShineOnYouCrazyDiamond2"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.WishYouWereHere"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.HaveACigar"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.WelcomeToTheMachine"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.ShineOnYouCrazyDiamond1"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.PigsOnTheWing2"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.Sheep"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.Pigs"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.Dogs"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.PigsOnTheWing1"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TwoSunsInTheSunset"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.NotNowJohn"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TheFinalCut"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.SouthamptonDock"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TheFletcherMemorialHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.GetYourFilthyHandsOffMyDesert"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.ParanoidEyes"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TheGunnersDream"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TheHerosReturn"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.WhenTheTigersBrokeFree"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.OneOfTheFew"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.YourPossiblePasts"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.ThePostWarDream"
+            android:exported="false" />
+        <activity
+            android:name=".TheEndlessRiver.TERHome"
+            android:exported="false" />
+        <activity
+            android:name=".Meddle.MeHome"
+            android:exported="false" />
+        <activity
+            android:name=".AtomHeartMother.AHMHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheWall.TWHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheDivisionBell.TDBHome"
+            android:exported="false" />
+        <activity
+            android:name=".More.MHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheDarkSideOfTheMoon.TDSOTMHome"
+            android:exported="false" />
+        <activity
+            android:name=".WishYouWereHere.WYWHHome"
+            android:exported="false" />
+        <activity
+            android:name=".Animals.AHome"
+            android:exported="false" />
+        <activity
+            android:name=".TheFinalCut.TFCHome"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
